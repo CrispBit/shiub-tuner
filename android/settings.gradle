@@ -1,0 +1,3 @@
+rootProject.name = 'shiub_tuner'
+
+include ':app'

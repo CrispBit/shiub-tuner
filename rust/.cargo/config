@@ -1,0 +1,11 @@
+[target.aarch64-linux-android]
+ar = "C:/Users/cilan/Source/Repos/shiub_tuner/NDK/arm64/bin/aarch64-linux-android-ar"
+linker = "C:/Users/cilan/Source/Repos/shiub_tuner/NDK/arm64/bin/aarch64-linux-android-gcc"
+
+[target.armv7-linux-androideabi]
+ar = "C:/Users/cilan/Source/Repos/shiub_tuner/NDK/arm/bin/arm-linux-androideabi-ar"
+linker = "C:/Users/cilan/Source/Repos/shiub_tuner/NDK/arm/bin/arm-linux-androideabi-gcc"
+
+[target.i686-linux-android]
+ar = "C:/Users/cilan/Source/Repos/shiub_tuner/NDK/x86/bin/i686-linux-android-ar"
+linker = "C:/Users/cilan/Source/Repos/shiub_tuner/NDK/x86/bin/i686-linux-android-gcc"

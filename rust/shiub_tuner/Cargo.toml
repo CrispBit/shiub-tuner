@@ -1,0 +1,15 @@
+[package]
+name = "shiub_tuner"
+version = "0.1.0"
+authors = ["Cilan <abraham.hamidi01@gmail.com>"]
+
+[lib]
+name = "shiub_tuner"
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+libc = "0.2"
+jni = { version = "0.5.1", optional = true, default-features = false }
+
+[features]
+default = ["jni"]
